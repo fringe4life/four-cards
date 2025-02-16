@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="md:justify-center  col-[2] mb-[2.875rem] flex flex-col  md:grid-cols-4 gap-8 md:grid xl:grid-cols-3 xl:grid-rows-[4]">
+      <main className="md:justify-center  col-[2] mb-[2.875rem] md:mb-20 xl:mb-40 flex flex-col  md:grid-cols-4 gap-8 md:grid xl:grid-cols-3 xl:grid-rows-[4]">
         {cardEls}
       </main>
     </>

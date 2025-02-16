@@ -12,7 +12,7 @@ export default function Card({title, body, img, md, xl, shadow}: CardProps){
     const xlStrings = xl.join(" ")
     return (
         <section className={clsx(
-									 `flex flex-col justify-between border p-8 rounded-lg  h-[15.625rem] min-w-[19.625rem] md:w-max-full ${mdStrings} ${xlStrings} ${shadow}  `,
+									 `flex flex-col justify-between  p-8 rounded-lg  h-[15.625rem] min-w-full md:w-[19.625rem] md:w-max-full ${mdStrings} ${xlStrings} ${shadow}  `,
 								)}
 								>
             <hgroup>
