@@ -1,0 +1,10 @@
+.autofit {
+	display: grid;
+	grid-template-columns: repeat(auto, minmax(19.625rem, 1fr));
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 2rem;
+}

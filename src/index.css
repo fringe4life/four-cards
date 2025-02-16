@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* @theme {
+	--breakpoint-xl: 90rem;
+} */
+#root {
+	display: grid;
+	grid-template-columns: 0px 1fr 0px;
+	gap: 0 1.875rem;
+
+	@media screen and (width >= 768px) {
+		gap: 3.375rem;
+	}
+
+	@media screen and (width >= 1440px) {
+		gap: 10.1875rem;
+	}
+}
+
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
