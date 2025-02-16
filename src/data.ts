@@ -11,7 +11,7 @@ export default [
         img: supervisor,
         id:1,
         md: [ "md:col-start-2", "md:col-span-2", 'md:row-span-full',  ],
-        xl: ["xl:col-[1]", "xl:row-start-2", "xl:row-span-2"],
+        xl: ["xl:col-[1]", "xl:row-start-[2]", "xl:row-span-2"],
         shadow: "shadow-[inset_0_10px_0_0_#45d3d3,0_4px_8px_-4px_#0000004d]"
     },
     {
@@ -39,7 +39,7 @@ export default [
         img: calculator,
         id:4,
         md:['md:row-[3]', "md:col-start-2",  "md:col-span-2"],
-        xl: ["xl:col-[3]", "xl:row-start-2", "xl:row-span-2"],
+        xl: ["xl:col-[3]", "xl:row-start-[2]", "xl:row-span-2"],
         shadow: "shadow-[inset_0_10px_0_0_#549ef2,0_4px_8px_-4px_#0000004d]"
     },
     
