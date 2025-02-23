@@ -1,6 +1,6 @@
 export default function Header(){
     return (
-        <header className="text-gray-500 col-[2] mb-16 mt-14 md:mt-20 xl:mt-[6.375rem] text-center max-w-[50.375ch] justify-self-center">
+        <header className="text-gray-500 col-[2] mb-16 xl:mb-18 mt-14 md:mt-20 xl:mt-[6.375rem] text-center max-w-[50.375ch] justify-self-center">
             <hgroup>
                 <h1 className="font-extralight text-4xl leading-[1.4] tracking-[0.25px]">Reliable efficient delivery</h1>
                 <h2 className="font-semibold text-4xl leading-[1.4] tracking-[0.25px] mb-4">Powered by Technology</h2>

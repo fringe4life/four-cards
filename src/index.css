@@ -9,13 +9,13 @@ html {
 	grid-template-columns: 0px 1fr 0px;
 	gap: 0 1.875rem;
 
-	@media screen and (width >= 48rem) {
+	/* @media screen and (width >= 48rem) {
 		gap: 0 3.375rem;
 	}
 
 	@media screen and (width >= 90rem) {
 		gap: 0 10.1875rem;
-	}
+	} */
 }
 
 :root {
