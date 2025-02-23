@@ -1,5 +1,4 @@
 
-import './App.css'
 import Header from './components/Header'
 import Card from './components/Card'
 import cards from './data'
@@ -8,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="md:justify-center  col-[2] mb-[2.875rem] md:mb-20 xl:mb-40 flex flex-col  md:grid-cols-4 gap-8 md:grid xl:grid-cols-3 xl:grid-rows-4">
+      <main className="grid justify-center col-[2]  mb-[2.875rem] md:mb-20 xl:mb-40 grid-cols-[19.625rem]  md:grid-cols-[21.875rem_21.875rem_21.875rem_21.875rem] gap-8  xl:grid-cols-[21.875rem_21.875rem_21.875rem] xl:grid-rows-4">
         {cardEls}
       </main>
     </>

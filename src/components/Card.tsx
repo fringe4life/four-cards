@@ -2,17 +2,19 @@ type CardProps = {
     title: string
     body:string
     img: string,
+    sm: string[],
     md: string[],
     xl: string[],
     shadow: string,
 }
 import clsx from "clsx"
-export default function Card({title, body, img, md, xl, shadow}: CardProps){
+export default function Card({title, body, img, sm, md, xl, shadow}: CardProps){
     const mdStrings = md.join(" ") 
     const xlStrings = xl.join(" ")
+    const smallStrings = sm.join(" ")
     return (
         <section className={clsx(
-									 `flex flex-col justify-between  p-8 rounded-lg  h-[15.625rem] min-w-full md:w-[19.625rem] md:w-max-full ${mdStrings} ${xlStrings} ${shadow}  `,
+									 ` p-8 rounded-lg  h-[15.625rem] w-[19.625rem] md:w-[21.875rem] ${mdStrings} ${xlStrings} ${shadow} ${smallStrings} `,
 								)}
 								>
             <hgroup>
