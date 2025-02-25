@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+	--inset: auto 2rem 2rem auto;
+}
+
 html {
 	color-scheme: light;
 }
